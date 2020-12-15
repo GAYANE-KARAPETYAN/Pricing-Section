@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.column {
+    height: 500px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;   
+}
+.minimal {
+    height: 30px;
+}
+.annually-value {
+    height: 90px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.value {
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.annually {
+    font-size: 10px;
+    margin-top: 0px;
+}
+.minimal, .value, .annually {
+    font-weight: 600;
+}
+.minimal, .annually-value {
+    color: rgb(256, 256, 256, 0.9);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+li {
+    padding: 15px 0px;
+    text-align: center;
+    border-bottom: 1px solid rgb(196, 207, 218);
+}
+ul {
+    padding-left: 0px;
+}
+button {
+    height: 36px;
+    width: 248px;    
+    border-style: solid;
+}
